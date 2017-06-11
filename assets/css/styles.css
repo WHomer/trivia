@@ -11,59 +11,55 @@ html, body {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 800px;
-	background-color: lightblue;
+	background-color: #eff0f1;
 }
 
 .title {
 	text-align: center;
 	font-size: 2.5em;
 	padding: 20px 0;
-	background-color: orange;
+	
 }
 
 .message {
 	padding: 10px 20px;
 	font-size: 1.2em;
-	background-color: green;
+	
+}
+
+.start-button {
+	margin-top: 10px;
 }
 
 .question-container {
 	padding: 15px;
 	width: 100%;
-	background: yellow;
+	
 }
 
 .time-remaining {
 	margin-bottom: 10px;
 	font-size: 1.2em;
 	font-weight: strong;
-	background-color: purple;
+	
 }
 
 .question {
 	padding: 5px 0;
-	background-color: lightblue;
+	
 }
 
 .answers-container {
 	margin: 10px;
-	background-color: blue;
+	
 }
 
 .answer {
 	padding: 5px;
-	background-color: orange;
+	
 }
 
 .answer:hover {
-	background-color: green;
+	background-color: #242729;
 	color: #fff;
-}
-
-footer{
-	position: absolute;
-	text-align: center;
-	background-color: green;
-	color: #fff;
-	bottom: 0;
 }
